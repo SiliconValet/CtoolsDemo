@@ -1,0 +1,16 @@
+<?php
+
+/*
+ * Implements hook_ctools_plugin_directory
+ * Each implemented "type" causes a scan_dir, so be frugal
+ */
+function majorpanes_ctools_plugin_directory($owner, $type) {
+  if ($owner == 'ctools') {
+    switch ($type) {
+      //'context':        return 'plugins/context';
+      case 'content_types':  return 'plugins/content_types';
+    }
+  }
+}
+
+

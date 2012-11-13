@@ -1,0 +1,7 @@
+name        = "Major panes"
+description = "A collection of ctools content types for demonstration"
+core        = 7.x
+version     = 7.x-1.0
+package     = "*Mediacurrent demo"
+dependencies[] = ctools
+dependencies[] = entity
